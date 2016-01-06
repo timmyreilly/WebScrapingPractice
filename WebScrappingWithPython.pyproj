@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c691893-9d9f-4375-950e-3fb3e5ac201c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>titleParagraphWiki.py</StartupFile>
+    <StartupFile>parsing_json.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api_practice.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bsfour.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,7 +36,13 @@
     <Compile Include="dealingwithparents.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="genericScraper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="getLinks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="google_api_practice.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lambda.py">
@@ -42,10 +51,19 @@
     <Compile Include="navigatingTrees.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="parsing_json.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="regextofindimages.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="titleParagraphWiki.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tokens.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="twitter_practice.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="warandpeace.py">
@@ -55,6 +73,14 @@
     <Compile Include="wikipedia.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="wikiSpider\wikiSpider\items.py" />
+    <Compile Include="wikiSpider\wikiSpider\pipelines.py" />
+    <Compile Include="wikiSpider\wikiSpider\settings.py" />
+    <Compile Include="wikiSpider\wikiSpider\spiders\articleSpider.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wikiSpider\wikiSpider\spiders\__init__.py" />
+    <Compile Include="wikiSpider\wikiSpider\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env1\">
@@ -82,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="wikiSpider\scrapy.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wikiSpider\" />
+    <Folder Include="wikiSpider\wikiSpider\" />
+    <Folder Include="wikiSpider\wikiSpider\spiders\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
