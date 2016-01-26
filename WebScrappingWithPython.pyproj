@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c691893-9d9f-4375-950e-3fb3e5ac201c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>storing_data.py</StartupFile>
+    <StartupFile>my_sql_one.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,7 +33,13 @@
     <Compile Include="chapteronepretty.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="csv_one.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dealingwithparents.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="download_files.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="genericScraper.py">
@@ -45,7 +51,13 @@
     <Compile Include="google_api_practice.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="html_to_csv.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lambda.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="my_sql_one.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="navigatingTrees.py">
@@ -57,7 +69,7 @@
     <Compile Include="regextofindimages.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="storing_data.py">
+    <Compile Include="getting_one_logo.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="titleParagraphWiki.py">
