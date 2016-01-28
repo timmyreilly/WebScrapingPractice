@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c691893-9d9f-4375-950e-3fb3e5ac201c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>markov_inaguration_speech.py</StartupFile>
+    <StartupFile>bfs_kevin_bacon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="better_monty_python_csv.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bfs_kevin_bacon.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="bsfour.py">
