@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c691893-9d9f-4375-950e-3fb3e5ac201c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>nltk_one.py</StartupFile>
+    <StartupFile>nltk_two.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -82,6 +82,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="nltk_one.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nltk_two.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="parsing_json.py">
